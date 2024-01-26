@@ -32,7 +32,7 @@
 /* TASK 2 */
 
 .profile {
-  width: 580px;
+  width: 480px;
   margin: 300px auto;
 }
 
@@ -56,16 +56,24 @@
   line-height: 30px;
   margin-bottom: 28px;
 }
+.profile__pic__container{
+
+  padding: 20px 0px;
+}
 
 .profile__pic {
-  width: 14%;
+  width: 20%;
   aspect-ratio: 1/1;
   border-radius: 100%;
-  margin-left: 80px;
+  margin-left: 40px;
+}
+
+.second {
+  margin-left: 68px;
 }
 
 .profile__footer__section{
-  padding: 30px;
+  padding: 26px 30px;
   border: 2px solid lightgray;
   border-top: 0;
   border-bottom-left-radius:12px ;
